@@ -1,0 +1,72 @@
+{
+  "app_eui": "6081F92A22F6421C",
+  "decoded": {
+    "payload": [
+      {
+        "channel": 0,
+        "name": "temperature",
+        "type": 103,
+        "unit": "celcius",
+        "value": 23
+      },
+      {
+        "channel": 1,
+        "name": "humidity",
+        "type": 115,
+        "unit": "hPa",
+        "value": 991
+      },
+      {
+        "channel": 2,
+        "name": "humidity",
+        "type": 104,
+        "unit": "percent",
+        "value": 31
+      },
+      {
+        "channel": 3,
+        "last": true,
+        "name": "altitude",
+        "type": 121,
+        "unit": "m",
+        "value": 180
+      }
+    ],
+    "status": "success"
+  },
+  "dev_eui": "6081F945664E1866",
+  "devaddr": "FF020048",
+  "fcnt": 8,
+  "hotspots": [
+    {
+      "channel": 9,
+      "frequency": 904.0999755859375,
+      "hold_time": 424,
+      "id": "1127MZS8ymdLPgQmADD1YreZorvzkpY7ZgUDkGqDBjLm2mhzJQxT",
+      "lat": 41.500739987972196,
+      "long": -81.60566306667279,
+      "name": "funny-olive-seahorse",
+      "reported_at": 1639620951765,
+      "rssi": -107,
+      "snr": -1.5,
+      "spreading": "SF7BW125",
+      "status": "success"
+    }
+  ],
+  "id": "435378b9-7862-4336-bb07-d0a1cd6bc4ca",
+  "metadata": {
+    "adr_allowed": false,
+    "cf_list_enabled": false,
+    "multi_buy": 1,
+    "organization_id": "ebb2963a-ce8b-44ae-b9b8-8d0947e7eb65"
+  },
+  "name": "Feather M0",
+  "payload": "AGcA5gFzJrYCaD4DeQC0",
+  "payload_size": 15,
+  "port": 1,
+  "raw_packet": "QP8CAEiACAAB3/4izL7+NwdkMI18/poIMraVtA==",
+  "replay": false,
+  "reported_at": 1639620951765,
+  "type": "uplink",
+  "uuid": "d8f0e35e-c192-4056-b963-d6a45c48b0be"
+}

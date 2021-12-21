@@ -1,0 +1,33 @@
+Ideal final product
+
+1) clean code base
+2) list of dependencies to install
+3) markdown code to document install process
+4) interfacing with sensor
+5) 
+
+
+repo organization:
+code base / solution set
+
+
+todo
+1) encode/decode serialization
+2) figuring out why lmic is pending
+
+RXTXPEND is an operation mode of the MAC specifying that there is a tx/rx pending.
+
+DEFINE_LMIC is a weird preprocessor tag that expands to creating a struct called lmic_t
+LMIC object is a struct defined by some weird preprocessor black magic.
+LMIC struct holds pointers to all the different jobs, client data, radio communication timing, etc.
+opmode holds the flags left from the engineUpdate() method.
+
+I could look into setting the LMIC debug level to 1
+- I tried setting the compiler flag but nothing was being outputted
+
+look into: sendBuffer.cpp lmic callback
+
+3) document solution space
+4) change topic
+5) redo lambda
+6) Go back and create student version of above, walk through assignment
