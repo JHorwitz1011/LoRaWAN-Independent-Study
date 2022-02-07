@@ -5,6 +5,11 @@ Fall 2021 Semester
 
 Advised by Nick Barendt, ISSACS
 
+## Repo Layout
+Final-Environment-Sensor is the final working implementation.
+
+feather-lora-test-1 and feather-lora-test-2 are kept for historical purposes and use a deprecated library. 
+
 ## Hardware Setup
 
 Hardware used was an Adafruit Feather M0 with 900 MHz radio https://www.adafruit.com/product/3178 and Adafruit's BME680 temperature, humidity, altitude, and pressure sensor https://www.adafruit.com/product/3660
